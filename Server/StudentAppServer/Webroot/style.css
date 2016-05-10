@@ -1,0 +1,65 @@
+/* Detta är en CSS fil för min webb / Någon som kör (Göteborg) - skapad utav Patrik Berggren */
+
+/* Färg kodnig snabb länk: http://www.rapidtables.com/web/color/RGB_Color.htm*/
+
+body{ 
+		padding: 10px;
+		margin: auto;
+		text-align: center;
+		width: 900px;
+		background: url(img/wall.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+}
+#content{
+		background-color: grey; filter:alpha(opacity=60); opacity:.9;
+		font-size: 14px;
+		font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+		width: 880px;
+		height: 760px;
+		padding: 10px;
+		border: 1px;
+		border-style: solid;
+
+}
+h1{
+		font-family:  "Helvetica", "Arial", sans-serif, Lucida Grande, Lucida Sans Unicode;
+		padding: 5px;
+		border: 1px;
+		border-style: solid;
+		background-color: grey; filter:alpha(opacity=60); opacity:.8;
+	}
+.formatText{
+		background-color: white; filter:alpha(opacity=60); opacity:.8;
+		text-align: center;
+		border: 3px;
+		border-style: solid;
+		margin: auto;
+		width: 250px;
+}
+footer{
+		clear: both;
+		text-align: center;
+		margin: 10px 10px 0px 10px;
+		font-size: 75%;
+		position:inherit;
+		margin-top: 35px;
+}
+a:hover {
+		cursor: pointer;
+		background: #262626;
+		color:  #1E90FF;
+}	
+a:link, 
+a:visited {
+		color: rgba(0, 0, 255);
+		text-decoration: none;
+}
+a:active {
+		color: rgba(250,191,12,1);
+}
+a#current {
+		background: rgba(85,137,48,1);
+}
