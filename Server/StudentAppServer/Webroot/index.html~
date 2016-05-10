@@ -52,7 +52,7 @@
 
 			<h2>Error response:</h2>	
 
-				<h4>Om du sökt på en student som inte har några kurser: </h4>
+				<h4>Om du sökt på student som inte har några kurser: </h4>
 					<div class="formatText">
 						<p> 
 							{

@@ -12,47 +12,47 @@
 	<body>
 		<div id=headerText>
 
-			<h1>Guide till hur man använder min WebService</h1>
+			<h1>Guide till hur man anvÃ¤nder min WebService</h1>
 
 		</div>
 		<div id="content">
 
 			<h2>Olika format:</h2>
 
-				<h4>För att få ut json: </h4> 
+				<h4>FÃ¶r att fÃ¥ ut json: </h4> 
 					<div class="formatText">
 						<p> /StudentAPI?format=json </p>
 					</div>
 
 				<p> 
-					Prova länken: 
-					<a type="application/json" href="/StudentAPI?format=json">JSON</a> 
+					Prova lÃ¤nken: 
+					<a href="/StudentAPI?format=json">JSON</a> 
 				</p> 
 
 
-				<h4>För att få ut xml: </h4>
+				<h4>FÃ¶r att fÃ¥ ut xml: </h4>
 					<div class="formatText">
 						<p> /StudentAPI?format=xml </p>
 					</div>
 
 					<p> 
-						Prova länken: 
+						Prova lÃ¤nken: 
 						<a href="/StudentAPI?format=xml">XML</a> 
 					</p>
 
-				<h4>Om du vill få ut data på id: </h4>
+				<h4>Om du vill fÃ¥ ut data pÃ¥ id: </h4>
 					<div class="formatText">
 						<p> /StudentAPI?format=xml&id=10 </p>
 					</div>		
 
 					<p> 
-						Prova länken: 
+						Prova lÃ¤nken: 
 						<a href="/StudentAPI?format=xml&id=10">XML med id 10</a> 
 					</p>
 
 			<h2>Error response:</h2>	
-
-				<h4>Om du sökt på en student som inte har några kurser: </h4>
+Cff
+				<h4>Om du sÃ¶kt pÃ¥ student som inte har nÃ¥gra kurser: </h4>
 					<div class="formatText">
 						<p> 
 							{
@@ -68,7 +68,7 @@
 			<!-- 	footer 	!-->
 				
 			<footer>	
-							¤ Skapad utav Patrik Berggren i utbildnings syfte, Patrikwebb@hotmail.com ¤
+							Â¤ Skapad utav Patrik Berggren i utbildnings syfte, Patrikwebb@hotmail.com Â¤
 			</footer>
 		</div>
 	</body>	

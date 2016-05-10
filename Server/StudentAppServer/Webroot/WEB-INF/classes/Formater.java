@@ -4,9 +4,9 @@
  * @author Patrik
  *
  */
-public class Formattter {
+public class Formater {
    
-    String contentFormat = "application/xml";
+    String contentFormat = "text/plain";
  
     public String getDataAsFormat(String format, String id) {
        

@@ -27,12 +27,12 @@ public class StudentServlet extends HttpServlet {
 			Formater formaterFactory = new Formater();
 			
 			PrintWriter out = response.getWriter();
-			response.setContentType(formaterFactory.getContent());
 			
 			format = request.getParameter("format");
 			id = request.getParameter("id");
 			
-			out.print(formatFactory.getDataAsFormat(format, id));
+			out.print(formaterFactory.getDataAsFormat(format, id));
+			response.setContentType(formaterFactory.getContent());
 			out.close();
 
 		}

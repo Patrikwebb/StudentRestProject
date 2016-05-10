@@ -6,7 +6,7 @@
  */
 public class Formater {
    
-    String contentFormat = "application/xml";
+    String contentFormat = "text/plain";
  
     public String getDataAsFormat(String format, String id) {
        
@@ -51,7 +51,7 @@ public class Formater {
     }
    
     public String getContent(){
-	System.out.println("Formats.java: " + contentFormat);
+	System.out.println("Formats.java: " + this.contentFormat);
         return contentFormat;
     }
 }
