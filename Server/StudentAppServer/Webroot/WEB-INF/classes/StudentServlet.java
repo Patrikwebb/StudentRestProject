@@ -25,13 +25,16 @@ public class StudentServlet extends HttpServlet {
 
 			format = request.getParameter("format");
 			id = request.getParameter("id");
-			// Print out the client ip for registration data
-			System.out.println("getRemoteAddr(): " + request.getRemoteAddr());
-
-			System.out.println("getHeader(X-Forwarded-For): " + request.getHeader("X-Forwarded-For"));
-
+			
 			out.print(formaterFactory.getDataAsFormat(format, id));
 			response.setContentType(formaterFactory.getContent());
+
+			// Print out the client ip and request for registration data
+			System.out.println("\nIncomming request: \n");
+			System.out.println("getRemoteAddr(): " + request.getRemoteAddr());
+			//TODO Check getHeader(info);
+			System.out.println("Formats request: " + formaterFactory.getContent());
+
 			out.close();
 
 		}

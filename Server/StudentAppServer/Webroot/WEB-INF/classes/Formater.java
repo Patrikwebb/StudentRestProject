@@ -51,7 +51,6 @@ public class Formater {
     }
    
     public String getContent(){
-	System.out.println("Formats.java: " + contentFormat);
         return contentFormat;
     }
 }

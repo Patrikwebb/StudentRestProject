@@ -51,6 +51,7 @@ public class XMLFormat {
 			transformer.transform(source, result);
 			
 			studentsXML = result.getWriter().toString();
+			System.out.println("XMLFormat.getStudents: " + result.getWriter().toString());
 
 		} catch (ParserConfigurationException pce) {
 			pce.printStackTrace();
